@@ -2,7 +2,7 @@
 
 **CookCup** is a next generation DOM toolbox, written in EcmaScript 6 and inspired by (but unlike) jQuery.
 
-- [Documentation](/cookcup/cookcup/wiki)
+- [Documentation](https://github.com/cookcup/cookcup/wiki)
 
 ## Install
 
@@ -16,7 +16,7 @@ Just add this library using our CDN:
 <script src="https://unpkg.com/cookcup">
 ```
 
-It is strongly recommended that you load the script with the `async` attribute, we have a [small guide](/cookcup/cookcup/wiki/Guide:-Asynchronous-load) learning how to use AMD (Asynchronous Module Definition) or a custom implementation.
+It is strongly recommended that you load the script with the `async` attribute, we have a [small guide](https://github.com/cookcup/cookcup/wiki/Guide:-Asynchronous-load) learning how to use AMD (Asynchronous Module Definition) or a custom implementation.
 
 Or just customize your build, download files and host it directly in your website.
 
@@ -58,15 +58,15 @@ const elements = new c('div')
 
 CookCup is a modularized system, which means you can choose to just load the core (which is also a module) and load the other modules on demand.
 
-- [Attributes](/cookcup/cookcup/wiki/Module:-Attributes)
-- [Classes](/cookcup/cookcup/wiki/Module:-Classes)
-- [Core](/cookcup/cookcup/wiki/Module:-Core)
+- [Attributes](https://github.com/cookcup/cookcup/wiki/Module:-Attributes)
+- [Classes](https://github.com/cookcup/cookcup/wiki/Module:-Classes)
+- [Core](https://github.com/cookcup/cookcup/wiki/Module:-Core)
 
 The core is the minimum requirement for other modules to work, so it **always must be included**.
 
 ## Roadmap
 
-You can follow our work in progress through the [milestones](/cookcup/cookcup/milestones).
+You can follow our work in progress through the [milestones](https://github.com/cookcup/cookcup/milestones).
 
 ## Contributing
 
