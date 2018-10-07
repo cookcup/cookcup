@@ -1,4 +1,4 @@
-CookCup.extends({
+export default {
   addClass () {
     for (let element of this) {
       element.classList.add(arguments)
@@ -36,4 +36,4 @@ CookCup.extends({
 
     return this
   }
-})
+}

@@ -1,0 +1,16 @@
+{
+  "name": "cookcup",
+  "version": "1.0.0",
+  "description": "CookCup is a next generation DOM toolbox, written in EcmaScript 6 and inspired by (but unlike) jQuery.",
+  "main": "cookcup.js",
+  "repository": "git@github.com:cookcup/cookcup.git",
+  "author": "Caio Tarifa <caiotarifa@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "style": "./node_modules/.bin/eslint src/**/*.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1"
+  }
+}

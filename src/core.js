@@ -1,4 +1,4 @@
-class CookCup {
+export default class CookCup {
   constructor (selector) {
     if (this === window) {
       return new CookCup(selector)
@@ -52,7 +52,7 @@ class CookCup {
 }
 
 CookCup.methods = {
-  find (selector) {
+  find () {
     // Missing.
   },
 
@@ -68,5 +68,3 @@ CookCup.methods = {
     return this[this.length - 1]
   }
 }
-
-window.CookCup = window.c = CookCup

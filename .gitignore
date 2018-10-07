@@ -1,2 +1,6 @@
+# Project
+*.log*
+node_modules
+
 # macOS
 .DS_Store

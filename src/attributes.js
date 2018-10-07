@@ -1,4 +1,4 @@
-CookCup.extends({
+export default {
   getAttribute (attribute) {
     return this[0].getAttribute(attribute)
   },
@@ -37,4 +37,4 @@ CookCup.extends({
 
     return this
   }
-})
+}
