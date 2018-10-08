@@ -8,9 +8,11 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "style": "./node_modules/.bin/eslint src/**/*.js"
+    "style": "./node_modules/.bin/eslint src/**/*.js",
+    "test": "./node_modules/.bin/jest"
   },
   "devDependencies": {
-    "eslint": "^5.6.1"
+    "eslint": "^5.6.1",
+    "jest": "^23.6.0"
   }
 }

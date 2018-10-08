@@ -1,4 +1,4 @@
-export default class CookCup {
+class CookCup {
   constructor (selector) {
     if (this === window) {
       return new CookCup(selector)
@@ -68,3 +68,5 @@ CookCup.methods = {
     return this[this.length - 1]
   }
 }
+
+module.exports = CookCup
