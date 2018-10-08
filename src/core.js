@@ -1,3 +1,29 @@
+class CookCupNodeList {
+  constructor (nodeList) {
+    this.nodeList = nodeList
+  }
+
+  find () {
+    // Missing
+  }
+
+  first () {
+    return this.nodeList[0]
+  }
+
+  index (index) {
+    return this.nodeList[index]
+  }
+
+  last () {
+    return this.nodeList[this.nodeList.length - 1]
+  }
+
+  get elements() {
+    return this.nodeList
+  }
+}
+
 class CookCup {
   constructor (selector) {
     if (this === window) {
@@ -5,9 +31,8 @@ class CookCup {
     }
 
     const elements = document.querySelectorAll(selector)
-    elements.__proto__ = CookCup.methods
 
-    return elements
+    return new CookCupNodeList(elements)
   }
 
   static extends (object) {
@@ -48,24 +73,6 @@ class CookCup {
 
   static get version () {
     return '1.0.0'
-  }
-}
-
-CookCup.methods = {
-  find () {
-    // Missing.
-  },
-
-  first () {
-    return this[0]
-  },
-
-  index (index) {
-    return this[index]
-  },
-
-  last () {
-    return this[this.length - 1]
   }
 }
 
