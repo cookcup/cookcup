@@ -76,4 +76,12 @@ class CookCup {
   }
 }
 
-module.exports = CookCup
+function c(selector) {
+    if (this.constructor == c) {
+        // Called to create nodes. 
+    } else {
+        // Called to search for nodes.
+    }
+}
+
+module.exports = c 
