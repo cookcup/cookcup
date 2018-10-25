@@ -75,3 +75,6 @@ You can help this project in several ways. See our [guide](#) for more informati
 ## Authors
 
 - [Caio Tarifa](/caiotarifa)
+
+### Contributors
+- [Ronaldo F. Lima](/ronflima)
