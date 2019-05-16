@@ -5,10 +5,14 @@
 Some people say that jQuery is outdated but simply not using it would be the best solution? This library was created to answer this question, looking for alternative, organized and modern ways to manipulate the good old DOM. So, this library was written in top of EcmaScript and inspired by (but unlike) jQuery.
 
 ```javascript
-import { attributes, classes } from 'cookcup'
+import { attributes, classes, events } from 'cookcup'
 
-attributes('a').set('target', '_blank')
-classes('a').add('link')
+const links = document.querySelectorAll('a')
+
+attributes(links).set('target', '_blank')
+classes(links).add('link')
+
+events(links).on('click', event => console.log(event))
 ```
 
 - [Documentation](https://github.com/cookcup/cookcup/wiki)
