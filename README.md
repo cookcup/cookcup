@@ -1,6 +1,8 @@
-# new c('.CookCup')
+# CookCup
 
-**CookCup** is a next generation DOM toolbox, written in EcmaScript 6 and inspired by (but unlike) jQuery.
+**CookCup** is a lightweight, simple and semantic DOM toolbox.
+
+Some people say that jQuery is outdated but simply not using it would be the best solution? This library was created to answer this question, looking for alternative, organized and modern ways to manipulate the good old DOM. So, this library was written in top of EcmaScript and inspired by (but unlike) jQuery.
 
 - [Documentation](https://github.com/cookcup/cookcup/wiki)
 
@@ -16,7 +18,7 @@ Just add this library using our CDN:
 <script src="https://unpkg.com/cookcup">
 ```
 
-It is strongly recommended that you load the script with the `async` attribute, we have a [small guide](https://github.com/cookcup/cookcup/wiki/Guide:-Asynchronous-load) learning how to use AMD (Asynchronous Module Definition) or a custom implementation.
+It is strongly recommended that you load the script with the `async` attribute, we have a [small guide](https://github.com/cookcup/cookcup/wiki/Guide:-Asynchronous-load) learning how to handle with it.
 
 Or just customize your build, download files and host it directly in your website.
 
@@ -35,34 +37,20 @@ $ yarn add cookcup
 Don't forget to import the library:
 
 ```javascript
-import CookCup from 'cookcup'
+import cc from 'cookcup'
 ```
 
 ## Usage
 
-Before write your code, you will need to attach a callback to the `ready` static method in order to wait DOM load.
-
-```javascript
-CookCup.ready(function (event) {
-  // Your code goes here.
-})
-```
-
-To initialize, instance the library passing a CSS selector to constructor:
-
-```javascript
-const elements = new c('div')
-```
+TODO
 
 ## Modules
 
-CookCup is a modularized system, which means you can choose to just load the core (which is also a module) and load the other modules on demand.
+CookCup is a modularized system, which means you can choose to load only what you want.
 
 - [Attributes](https://github.com/cookcup/cookcup/wiki/Module:-Attributes)
 - [Classes](https://github.com/cookcup/cookcup/wiki/Module:-Classes)
 - [Core](https://github.com/cookcup/cookcup/wiki/Module:-Core)
-
-The core is the minimum requirement for other modules to work, so it **always must be included**.
 
 ## Roadmap
 
@@ -75,3 +63,4 @@ You can help this project in several ways. See our [guide](#) for more informati
 ## Authors
 
 - [Caio Tarifa](/caiotarifa)
+- [Ronaldo Faria Lima](/ronflima)
